@@ -1,0 +1,25 @@
+body {
+	background-color: aquamarine;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+span {
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+article section:nth-child(even) {
+	border: 1px solid black;
+}
+
+article.n-type section, article.first-of-type section, article.three section {
+	border: none;
+}
